@@ -1,124 +1,68 @@
-#  E-Commerce Website using MERN Stack.
-A E-Commerce website developed using ReactJS for the frontend, NodeJs for the backend, MongoDB as database.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Table of contents
-* [Prerequisites](#prerequisites)
-* [Requirements](#requirements)
-* [Technologies](#technologies)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Contact](#contact)
+In the project directory, you can run:
 
+### `npm start`
 
-## Prerequisites
-- Text Editor ([VS Code](https://code.visualstudio.com/download) , [Atom](https://atom.io/), [Brackets](http://brackets.io/), etc.)
-- Node.js and npm - [install here](https://www.npmjs.com/get-npm)
-- MongoDB - [install here](https://docs.mongodb.com/manual/installation/)
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Requirements
-To run this project, install it locally using npm:
+### `npm test`
 
-- git clone git@github.com:suhassalian27/E-Commerce-Website-using-ReactJS-NodeJS.git
-```
-  $ cd E-Commerce-Website-using-ReactJS-NodeJS
-```
-- To Run Backend
-  - open terminal 
-```
-  $ npm install
-  $ npm start
-```
-- To Run Frontend
-  - open new terminal
-```
-  $ cd frontend
-  $ npm install
-  $ npm start
-```
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Technologies
-Project is created with:
-* HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
-* React: Components, Props, Events, Hooks, Router, Axios, React-Bootstrap
-* Redux: Store, Reducers, Actions
-* Node & Express: Web API, Body Parser, File Upload, JWT
-* MongoDB: Mongoose
-* Development: ESLint, Babel, Git, Github,
-* Deployment: 
+### `npm run build`
 
-## Features
-List of features ready and TODOs for future development
-* User Login, Signup, User Authentication.
-* Admin Login.
-* Add, Edit, Remove Products. (Only Admin)
-* Add to Cart.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-To-do list:
-* Sorting
-* Search
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Screenshots
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Home Page
-This is the home page of e-commerce. It shows a list of products. It also uses React-Bootstrap Corousel for corousel.
+### `npm run eject`
 
-![Main](Screenshots/main.png)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-________________________________________________________
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Product Details Page
-When the user clicks on a product it takes you to the product details page.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-![Product Details](Screenshots/product-details.png)
-________________________________________________________
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Cart
-Shopping Cart is the heart of any e-commerce website. I have created a user-friendly shopping cart using React and Redux.
+## Learn More
 
-![Cart](Screenshots/cart.png)
-________________________________________________________
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Register
-I have created forms for getting user info and save them in the database.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-![Register](Screenshots/register.png)
-________________________________________________________
+### Code Splitting
 
-### Sign-In
-Sign in page for user to sign in.
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-![SignIn](Screenshots/signin.png)
-________________________________________________________
+### Analyzing the Bundle Size
 
-## Ordering Products
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-Sign in page for user to sign in.
+### Making a Progressive Web App
 
-### Shipping Screen
-![Shipping](Screenshots/shipping.png)
-________________________________________________________
-### Payment Screen
-![Payment](Screenshots/payment.png)
-________________________________________________________
-### Place Order Screen
-![Place Order](Screenshots/placeorder.png)
-________________________________________________________
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Admin 
-Admin should be able to define products and update the count in stock whenever they like. This page is about managing ECommerce products.
+### Advanced Configuration
 
-## View Products (admin)
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-![Admin View Products](Screenshots/admin-products.png)
-________________________________________________________
+### Deployment
 
-### Add Products (admin)
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-![Admin Add products](Screenshots/add-product.png)
-________________________________________________________
+### `npm run build` fails to minify
 
-
-## Contact
-[Suhas Suhas](https://www.suhassalian.netlify.com/) - feel free to contact me!
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
